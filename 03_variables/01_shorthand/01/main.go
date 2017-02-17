@@ -12,4 +12,6 @@ func main() {
 	fmt.Printf("%v \n", b)
 	fmt.Printf("%v \n", c)
 	fmt.Printf("%v \n", d)
+
+	fmt.Println()
 }
