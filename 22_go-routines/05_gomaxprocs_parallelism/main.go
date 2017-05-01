@@ -11,6 +11,7 @@ var wg sync.WaitGroup
 
 func init() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
+	fmt.Println(runtime.NumCPU())
 }
 
 func main() {
